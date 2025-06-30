@@ -14,3 +14,4 @@ models/
 
 # Ignore other ms_word_files
 *.docx
+*.xlsx

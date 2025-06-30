@@ -13,6 +13,8 @@ with open('scaler.pkl', 'rb') as f:
 with open('feature_list.pkl', 'rb') as f:
     feature_list = pickle.load(f)
 
+# Streamlit app setup
+st.set_page_config(page_title="Fetal Health Prediction", layout="centered")
 st.title("👶 Fetal Health Prediction App")
 st.markdown("Enter the fetal health measurements below:")
 
@@ -21,11 +23,16 @@ user_input = {}
 for feature in feature_list:
     user_input[feature] = st.number_input(f"{feature}", value=0.0)
 
-# Convert to DataFrame
+# Convert to DataFrame and ensure correct column order
 input_df = pd.DataFrame([user_input])
+input_df = input_df[feature_list]
+
+
 
 # Preprocess
 scaled_input = scaler.transform(input_df)
+
+
 
 # Predict
 if st.button("Predict"):
