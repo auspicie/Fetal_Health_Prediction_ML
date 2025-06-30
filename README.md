@@ -74,7 +74,7 @@ Fetal_Health_Classification-ML/
 
 ## 📷 App Preview
 
-![App Screenshot](Screenshots/Fetal_app.png)
+![App Screenshot](Streamlit_App.png)
 
 
 ## 📌 License
