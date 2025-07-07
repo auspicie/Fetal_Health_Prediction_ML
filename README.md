@@ -31,18 +31,6 @@ Clone the repository:
 git clone https://github.com/auspicie/Fetal_Health_Classification-ML.git  
 cd Fetal_Health_Classification-ML  
 ```  
-## 🚀 Features
-
-- Exploratory Data Analysis
-
-- Data Preprocessing: Feature scaling, Handling class imbalance
-
-- Model Selection: Evaluation of multiple ML classifiers (e.g., Random Forest, XGBoost, SVM)
-
-- Performance Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
-
-- Deployment: Interactive web app using Streamlit
-
 Install dependencies:  
 ```
 pip install -r requirements.txt  
