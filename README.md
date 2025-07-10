@@ -21,7 +21,7 @@ The dataset used is based on CTG recordings, containing attributes such as:
 - Uterine contractions  
 - Short- and long-term variability  
 
-📌 https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
+📌 Source: [Dataset](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 
 
 ## ⚙️ Installation
